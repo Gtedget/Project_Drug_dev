@@ -15,3 +15,7 @@ for s in df["smiles"]:
 
 pd.DataFrame(valid).to_csv("data/filtered_smiles.csv", index=False)
 print(f"Valid molecules: {len(valid)}")
+
+# Also save valid SMILES to generated_smiles_valid.csv
+pd.DataFrame(valid)[["smiles"]].to_csv("data/generated_smiles_valid.csv", index=False)
+print(f"Valid SMILES saved to data/generated_smiles_valid.csv")
