@@ -1,0 +1,36 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Generated training corpora and experiment outputs
+/data/generated_*.csv
+/data/model_comparison*.csv
+/data/*smoke*.csv
+/data/*probe*.csv
+/data/*snapshot*.csv
+/data/*compare*.csv
+/data/*comparison*.csv
+/data/*metrics.csv
+/data/selfies_activity_*.txt
+/data/selfies_strict.txt
+/data/smiles_smoke.txt
+/data/target_activity_*.log
+
+# Local model artifacts
+/model/*
+!/model/gpt_activity_long10/
+!/model/gpt_activity_long10/**
+/model/gpt_activity_long10/checkpoint-*/
+!/model/conditional_gat_activity_long10.pt
+/Demo_deeplearning/
+
+# Redundant docs / exports
+/DRUG_GENERATION_SLIDE_DECK.md
+/COMPREHENSIVE_README.md
+/CONDITIONAL_MODELS_README.md
+
+# Python cache
+/src/__pycache__/

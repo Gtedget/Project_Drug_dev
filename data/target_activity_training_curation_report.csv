@@ -1,0 +1,11 @@
+metric,value
+input_rows,16631
+rows_with_smiles,16631
+invalid_smiles_removed,0
+standardized_rows_changed,523
+multifragment_rows_seen,523
+rows_dropped_by_length,530
+rows_dropped_by_target_ambiguity,1437
+duplicate_rows_removed,2700
+output_rows,11964
+output_unique_smiles,11292

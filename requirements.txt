@@ -1,6 +1,11 @@
+numpy>=2.4,<3
 torch
 transformers
+accelerate>=1.1.0
 datasets
 tokenizers
-pandas
+pandas>=3,<4
+pyarrow>=24,<25
+rdkit
+selfies
 
